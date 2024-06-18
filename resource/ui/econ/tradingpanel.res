@@ -1,0 +1,1 @@
+"Resource/UI/TradingPanel.res"{}

@@ -1,0 +1,1 @@
+"classes/ClassTipsList.res"{}

@@ -1,0 +1,61 @@
+sv_cheats -1; wait 5; showconsole; toggle mat_aaquality; hideconsole
+con_filter_enable "2"; con_filter_text "─"; clear
+echo"─ VALVE.rc LOADED ───────────────────────────────────────────────────"
+
+/// BASEFILE SCRIPTS
+// COMPONENTS
+alias "sixclear" "sixense_clear_bindings"
+alias "hudload" "hud_reloadscheme"
+alias "conlog" "con_filter_text #base; con_filter_enable 1"
+alias "unlog" "con_logfile .x"
+
+// TRANSPARENT_VIEWMODELS > hudlayout.res
+alias "base_transparentviewmodels_def" "sixclear; sixense_write_bindings swoopshud_transparentviewmodels.txt; hudload"
+alias "base_transparentviewmodels_alt" "sixclear; sixense_write_bindings swoopshud_transparentviewmodels.txt; conlog; con_logfile cfg/swoopshud_transparentviewmodels.txt; exec dev/transparentviewmodels.cfg; unlog; hudload"
+
+// SPEEDOMETER > hudplayerclass.res
+alias "base_speedometer_def" "sixclear; sixense_write_bindings swoopshud_speedometer.txt; hudload"
+alias "base_speedometer_alt" "sixclear; sixense_write_bindings swoopshud_speedometer.txt; conlog; con_logfile cfg/swoopshud_speedometer.txt; exec dev/speedometer.cfg; unlog; hudload"
+
+// STREAMER MODE
+alias "base_streamer_def" ""
+alias "base_streamer_alt" ""
+//
+//
+//
+
+// TEAM HEALTH > hudmatchstatus.res
+//alias "base_hudmatchstatus_def" "sixclear; sixense_write_bindings swoopshud_hudmatchstatus.txt; hudload"
+//alias "base_hudmatchstatus_alt" "sixclear; sixense_write_bindings swoopshud_hudmatchstatus.txt; conlog; con_logfile cfg/swoopshud_hudmatchstatus.txt; exec dev/hudmatchstatus.cfg; unlog; hudload"
+
+// SCOREBOARD > scoreboard.res
+alias "base_scoreboard_def" "sixclear; sixense_write_bindings swoopshud_scoreboard.txt; hudload"
+alias "base_scoreboard_alt" "sixclear; sixense_write_bindings swoopshud_scoreboard.txt; conlog; con_logfile cfg/swoopshud_scoreboard.txt; exec dev/scoreboard.cfg; unlog; hudload"
+
+// POST SCOREBOARD > hudmatchsummary.res
+//alias "base_hudmatchsummary_def" "sixclear; sixense_write_bindings swoopshud_hudmatchsummary.txt; hudload"
+//alias "base_hudmatchsummary_alt" "sixclear; sixense_write_bindings swoopshud_hudmatchsummary.txt; conlog; con_logfile cfg/swoopshud_hudmatchsummary.txt; exec dev/hudmatchsummary.cfg; unlog; hudload"
+
+// HUD UI
+//alias "base_hudui_def" "base_hudplayerhealth_def"
+//alias "base_hudui_alt" "base_hudplayerhealth_alt"
+// PERSONAL PLAYER HEALTH > hudplayerhealth.res
+//alias "base_hudplayerhealth_def" "sixclear; sixense_write_bindings swoopshud_hudplayerhealth.txt; hudload"
+//alias "base_hudplayerhealth_alt" "sixclear; sixense_write_bindings swoopshud_hudplayerhealth.txt; conlog; con_logfile cfg/swoopshud_hudplayerhealth.txt; exec dev/hudplayerhealth.cfg; unlog; hudload"
+
+// MVM UI
+//alias "base_mvmui_def" ""
+//alias "base_mvmui_alt" ""
+//
+//
+//
+
+// DEV EXPLOITS
+//alias "base_exploit_def" ""
+//alias "base_exploit_alt" ""
+//
+//
+//
+
+exec autoexec
+//exec autopreloader
