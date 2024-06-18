@@ -84,8 +84,8 @@ The mouses software and mouse premade settings will be in the "mouse" folder
 
 # Release History
 ### v0.99 - 2024/06: PRE-RELEASE 
-Commit   : first push 🥳🎉 & testing 
-Changelog: 
+Commit   : first push 🥳🎉 & testing  
+Changelog:  
 
 
 
