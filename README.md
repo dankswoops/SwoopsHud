@@ -36,15 +36,16 @@ SwoopsHud offers more than the normal hud by:
 
 # How to delete TF2 and reinstall the right way
 Doing a fresh install can be a great way to verify no extra files are in the file path.  
+
 Before you delete the game and file path, it's import you navigate to  
-`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\media`
+`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\media`  
 and copy your `viewed.res` file as this holds the local data of how many times you've played a map.  
 
-To uninstall `Steam Client Library > Right Click Team Fortress 2 > Manage > Uninstall`  
+To uninstall: `Steam Client Library > Right Click Team Fortress 2 > Manage > Uninstall`  
 
-Now travel to `C:\Program Files (x86)\Steam\steamapps\common` and verify `Team Fortress 2` is deleted.  
+Navigate to `C:\Program Files (x86)\Steam\steamapps\common` and verify `Team Fortress 2` is deleted.  
 
-To reinstall `Steam Client Library > Click Team Fortress 2 > Install`
+To reinstall: `Steam Client Library > Click Team Fortress 2 > Install`
 
 Now we need to verify the game files `Steam Client Library > Right Click Team Fortress 2 > Properties > Installed files > Verify integrity of the game files`  
 
@@ -53,14 +54,70 @@ Remember to drop `viewed.res` back in `C:\Program Files (x86)\Steam\steamapps\co
 
 
 # Launch Options
-It's really important you utilize these settings to the full potentional. 
-`-sw -noborder -h 1080 -w 1920 -dxlevel 95 -freq 240 -precachefontchars -particles 1 -enablefakeip -console -sillygibs -novid -nojoy -nohltv -nogamepadui -nosteamcontroller`
+These settings are crtical to optimizing your game.  
+
+Navigate to `Steam Client Library > Right Click Team Fortress 2 > Properties > General > Launch Options`
+There are many flags we can use that aren't mentioned in this readme you can [find here](https://docs.mastercomfig.com/9.10.1/pt/customization/launch_options/#recommended-launch-options) or by googling.
+It's not a good idea to try and use all the flags, some are for a different game on this engine, and some are deprecated. 
+If your string is too long it will get deleted once you refresh the steam client.
+
+The flags I use on windows are:  
+`-sw -noborder -w 1920 -dxlevel 98 -freq 240 -sillygibs -enablefakeip -particles 1 -precachefontchars -noff -novid -nojoy -nohltv -nosteamcontroller -noquicktime`  
+
+Let's break this down into sections so you can adjust it for yourself.  
+##### CLIENT WINDOW
+-fullscreen : Forces the engine to start in fullscreen mode.  
+-windowed or -sw : Forces the engine to start in windowed mode. 
+-noborder : Removes the windows border
+-w [width] : Forces the engine to start with resolution set to [width].  
+-h [height] : Forces the engine to start with resolution set to [height]. This launch option does not need to be set in the presence of -w. The width value will determine the height automatically.  
+##### DXLEVEL
+-dxlevel 80 : lowest dx, dx7 crashs on load
+-dxlevel 81 : these levels aren't advised
+-dxlevel 90 : these levels aren't advised
+-dxlevel 95 : Where the game gets stable
+-dxlevel 98 : newest
+##### SCREEN REFRESH RATE
+-freq 60
+-freq 120
+-freq 144
+-freq 240
+##### SILLYGIBS
+-sillygibs : enables low violence for gibs in Team Fortress 2. TURN IT ON!
+##### LEAVE THESE ON TYPICALLY
+-enablefakeip : creates a fake ip when using community servers for network security
+-particles 1 : limits beam count to the minimum of 512
+-precachefontchars : precaches font rendering for common characters
+-noff : Disables feedback for controllers
+-novid : disables Valve startup logo, saves time
+-nojoy : stops Joystick system from starting up, faster startup and less memory usage
+-nohltv : disables SourceTV hosting, less resource usage
+-nosteamcontroller : disables Steam controller system, faster startup, less memory usage and less input conflicts
+-noquicktime : disables initializing Quicktime. If you use the replay rendering feature, do not use this. Does not do anything on Linux
+##### ADDITIONAL FLAGS NOT NEEDED
+-dev : removes confirm to quit, stops backgrounds from loading
+-console : enables the console on launch
+-nosound : disables sound
+-nostartupsound : disables game music on main menu
+-no_texture_stream : disables texture streaming. Useful if you are on a powerful system with fast texture access and not under video memory pressure.
+-autoconfig : resets graphics quality to recommended for your hardware. Useful with the None Preset. Remove after the first launch.
 
 
 
 # How to install SwoopsHud
-Inside steam overlay go to settings > in game > screenshots > F9
-`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom`
+READ THIS BEFORE YOU RUN SWOOPSHUD! SwoopsHud will rebind your game binds.  
+
+If you have custom binds written into the game that are not on .cfg files, this is a flismy method of writting binds and they will be erased.  
+SwoopsHud makes intergration easy by downloading your current config settings and translating them into the huds cfg file Autobind or the class file.
+
+Navigate to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg\` and copy `config.cfg` to grab old settings.
+
+When you're ready to install SwoopsHud, download the DoubleClickSwoopHudUpdater.exe for an automatic install or download the entire repo and play it here.  
+`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\`
+
+Inside steam overlay go to `settings > in game > screenshots > F9`
+
+You are now up to date. Click the updater any time to handle this in the future.
 
 
 
