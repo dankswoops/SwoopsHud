@@ -28,7 +28,7 @@ SwoopsHud offers more than the normal hud by:
 1. The HUD has a built in AutoUpdater with working version control for effortless updating.
 1. Base File Intergration aka Hot Swaping is enabled allowing the user to toggle between default, swoopshud, and other huds later on.
 1. A cvar control page with commands worth toggling, speedometer, and transparent viewmodels are already baked in.
-2. 1. listenserver.cfg has been optimzed for the best local host experience.
+1. listenserver.cfg has been optimzed for the best local host experience.
 1. (Soon) The hud will have a complete Config allowing you to hotswap best or worst performance. Users no longer need other configs. (cfg/ATLAS.cfg I've almost compiled all 4,000+ commands and created the update)
 1. (Soon) The skybox give you extended controls for all bots, replays, and demos. Made for competition reviewers, youtubers, & advanced users.
 
