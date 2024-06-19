@@ -215,7 +215,7 @@ THE MOST POWERFUL TAUNTS IN CASUAL ARE : The high five (instant quit, silent, gr
     bind "P" "say_party"
     //bind "[" ""
     //bind "]" ""
-    //bind "\" "CANT BIND"
+    //bind "\" ""
     bind "DEL" "chat"
       alias "chat" "chat_off"
       alias "chat_on" "hud_saytext_time 12; alias chat chat_off; playgamesound scout.specialcompleted12"
