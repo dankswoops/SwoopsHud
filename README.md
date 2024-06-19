@@ -168,8 +168,8 @@ to enable them. You can delete their sound cache anytime. YES, YOU JUST GOT A GO
 What is the future of TF2? It's an old game but things like the base file intergation and speedometers were only recently discovered.  
 
 Right now we have [Outlines](https://gamebanana.com/wips/49156) that works in casual!   
-This is huge but future is in x hands. He's making every cosmetic outfit for every class and he's sworn to make it all casual compatible.   
-Soon you will be able to see your loadout in casual. The only thing we need now is 12 stack parties...   
+Outlines is huge but future is in [CoryP2001](https://gamebanana.com/members/1431101) hands. He's making every cosmetic outfit for every class and he's [sworn](https://gamebanana.com/requests/53466) to make it all casual compatible.   
+Soon you will be able to see your loadout in casual. The only thing we need now is 12 stack parties and more 100 player servers...   
 
 
 # Bugs and future updates
