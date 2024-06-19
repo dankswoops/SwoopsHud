@@ -366,6 +366,7 @@ CURRENT UPDATES IN ORDER:
 1. HotSwap HUD Custom Post game scoreboard   
 1. HotSwap HUD Custom Casual Hud Elements
 1. Add Stats back to game
+1. Finsh reworking the backpack kinda like hexhud
 
 
 
