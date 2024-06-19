@@ -11,17 +11,17 @@
 1. Release History
 1. Special thanks
 
-[How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)
-[Launch Options](#launch-options)
-[How to install SwoopsHud](#how-to-install-swoopshud)
-[How the game files work](#how-the-game-files-work)
-[Bindings and all class cfg files](#bindings-and-all-class-cfg-files)
-[How to setup a 12 button mouse](#how-to-setup-a-12-button-mouse)
-[How to use mods and the built in pre-loader](#how-to-use-mods-and-the-built-in-pre-loader)
-[Bugs & future updates](#bugs-and-future-updates)
-[Release History](#release-history)
-[Special thanks](#special-thanks)
-
+[How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)   
+[Launch Options](#launch-options)   
+[How to install SwoopsHud](#how-to-install-swoopshud)   
+[How the game files work](#how-the-game-files-work)   
+[Bindings and all class cfg files](#bindings-and-all-class-cfg-files)   
+[How to setup a 12 button mouse](#how-to-setup-a-12-button-mouse)   
+[How to use mods and the built in pre-loader](#how-to-use-mods-and-the-built-in-pre-loader)   
+[Bugs & future updates](#bugs-and-future-updates)   
+[Release History](#release-history)   
+[Special thanks](#special-thanks)   
+ 
 
 
 # SwoopsHud v0.99 (Pre-Release)
