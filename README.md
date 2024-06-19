@@ -7,9 +7,20 @@
 1. Bindings and all class cfg files
 1. How to setup a 12 button mouse
 1. How to use mods and the built in pre-loader
-1. Bugs & future updates
+1. Bugs and future updates
 1. Release History
 1. Special thanks
+
+[How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)
+[Launch Options](#launch-options)
+[How to install SwoopsHud](#how-to-install-swoopshud)
+[How the game files work](#how-the-game-files-work)
+[Bindings and all class cfg files](#bindings-and-all-class-cfg-files)
+[How to setup a 12 button mouse](#how-to-setup-a-12-button-mouse)
+[How to use mods and the built in pre-loader](#how-to-use-mods-and-the-built-in-pre-loader)
+[Bugs & future updates](#bugs-and-future-updates)
+[Release History](#release-history)
+[Special thanks](#special-thanks)
 
 
 
@@ -116,8 +127,8 @@ Navigate to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cf
 
 
 You can install SwoopsHud two different ways.   
-Automatically : download the `DoubleClickSwoopHudUpdater.exe` and run it on windows.   
-Manually : download the entire repo, unzip the folder, and put it here.   
+==Automatically== : download the `DoubleClickSwoopHudUpdater.exe` and run it on windows.   
+==Manually== : download the entire repo, unzip the folder, and put it here.   
 `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\`   
 
 You are now up to date. Click the updater any time to handle this in the future.   
@@ -165,7 +176,7 @@ to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom`
 to enable them. You can delete their sound cache anytime. YES, YOU JUST GOT A GOLD PAN IN CASUAL. No, this vpk isn't on game banana. 🍷🗿
 
 
-# Bugs & future updates
+# Bugs and future updates
 CURRENT BUGS BEING FIXED IN ORDER:   
 1. RankPanel is post game scoreboard   
 1. Dual on custom scoreboard is broken   
