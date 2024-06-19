@@ -109,16 +109,20 @@ Let's break this down into sections so you can adjust it for yourself.
 READ THIS BEFORE YOU RUN SWOOPSHUD! SwoopsHud will rebind your game binds.  
 
 If you have custom binds written into the game that are not on .cfg files, this is a flismy method of writting binds and they will be erased.  
-SwoopsHud makes intergration easy by downloading your current config settings and translating them into the huds cfg file Autobind or the class file.
+SwoopsHud makes intergration easy by downloading your current config settings and translating them into `SwoopsHud/cfg/autobind.cfg or class.cfg`.   
 
 Navigate to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg\` and copy `config.cfg` to grab old settings.
 
-When you're ready to install SwoopsHud, download the DoubleClickSwoopHudUpdater.exe for an automatic install or download the entire repo and play it here.  
-`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\`
 
-Inside steam overlay go to `settings > in game > screenshots > F9`
+You can install SwoopsHud two different ways.   
+Automatically : download the DoubleClickSwoopHudUpdater.exe and run it on windows.   
+Manually : download the entire repo, unzip the folder, and put it here.   
+`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\`   
 
-You are now up to date. Click the updater any time to handle this in the future.
+You are now up to date. Click the updater any time to handle this in the future.   
+
+Next we need to fix our screenshot button in steam to match our new binds.   
+While in game, use Tab + Shift to navigate to `Steam Overlay > Settings > In Game > Screenshots > F9`
 
 
 
