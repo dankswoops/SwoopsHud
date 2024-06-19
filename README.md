@@ -1,3 +1,5 @@
+### If you enjoy this content, please star this repo.
+
 # Table Of Contents
 1. [Introduction and version](#swoopshud)
 1. [How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)
