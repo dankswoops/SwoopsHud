@@ -1,7 +1,6 @@
 #### If you enjoy this content, please star this repo.
 
-#### For quick install
-<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer here</a>.
+<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer here</a> for the best install.
 
 
 # Table Of Contents
