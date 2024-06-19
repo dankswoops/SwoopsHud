@@ -26,6 +26,7 @@ SwoopsHud offers more than the normal hud by:
 1. Making the first complete set of default +12 button mouse binds with all class cfgs that have the best possible bind logic perclass.
 1. Medic has super powers with rebinding hudthresholdcaller into the null movement script, overwritting the sound, and changing the icon. Just press W on medic to see...
 1. Nearly all of main menu content is stylized and optimized for daily use.
+1. All windows with the possibility to key bind it to close are done with ESC or Q. All class sounds were remapped to hear them on 1-9 selection. E, A, and D also work and flow with the class selection bind T.
 1. All panels accesible and fully functional. (excluding Stats, fix coming soon)
 1. The pre-loader was absorbed into the hud with pre-packaged mods the player can easily access to allow for a one line toggle.
 1. The HUD has a built in music player and map selector. (58/107 maps unable to be upload due to github size limitations, $60/y to fix)
