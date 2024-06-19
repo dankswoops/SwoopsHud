@@ -1,6 +1,6 @@
 #### If you enjoy this content, please star this repo.
 
-<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer here</a> for the best install.
+<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer</a> to install the package seemlessly. Map packages getting solved soon.
 
 
 # Table Of Contents
