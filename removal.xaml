@@ -1,8 +1,0 @@
-<Window x:Class="MyPowerShellApp.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="PowerShell App" Height="Auto" Width="800" WindowStyle="None">
-    <Grid>
-        <TextBlock x:Name="OutputText" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-    </Grid>
-</Window>
