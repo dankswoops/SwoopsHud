@@ -1,26 +1,15 @@
 # Table Of Contents
-1. Introduction and version
-1. How to delete TF2 and reinstall the right way
-1. Launch Options
-1. How to install SwoopsHud
-1. How the game files work
-1. Bindings and all class cfg files
-1. How to setup a 12 button mouse
-1. How to use mods and the built in pre-loader
-1. Bugs and future updates
-1. Release History
-1. Special thanks
-
-[How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)   
-[Launch Options](#launch-options)   
-[How to install SwoopsHud](#how-to-install-swoopshud)   
-[How the game files work](#how-the-game-files-work)   
-[Bindings and all class cfg files](#bindings-and-all-class-cfg-files)   
-[How to setup a 12 button mouse](#how-to-setup-a-12-button-mouse)   
-[How to use mods and the built in pre-loader](#how-to-use-mods-and-the-built-in-pre-loader)   
-[Bugs & future updates](#bugs-and-future-updates)   
-[Release History](#release-history)   
-[Special thanks](#special-thanks)   
+1. [Introduction and version](#swoopshud)
+1. [How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)
+1. [Launch Options](#launch-options)
+1. [How to install SwoopsHud](#how-to-install-swoopshud)
+1. [How the game files work](#how-the-game-files-work)
+1. [Bindings and all class cfg files](#bindings-and-all-class-cfg-files)
+1. [How to setup a 12 button mouse](#how-to-setup-a-12-button-mouse)
+1. [How to use mods and the built in pre-loader](#how-to-use-mods-and-the-built-in-pre-loader)
+1. [Bugs & future updates](#bugs-and-future-updates)
+1. [Release History](#release-history)
+1. [Special thanks](#special-thanks)
  
 
 
