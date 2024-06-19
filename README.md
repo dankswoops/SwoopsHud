@@ -193,7 +193,9 @@ Changelog:
 
 
 # Special thanks
-
+Hypnotize, JarateKing, revan, peaches, VillageGreenPreserver, fellen, techno, Jofre, quickkennedy, afbiklwnef njw;kfn jn.kj.h, BrainrotHud!, waste, and scout from HUDS.TF.   
+mastercomfig for the congif advice.   
 Skymin for the SFM MvM wallpaper.   
+Robo-Katsu! E: and Tumby for help with BSP files.   
 Everyone who worked on Modern Casual Preloader (VScript).   
-E
+Everyone who made a Mod in the Mods folder.   
