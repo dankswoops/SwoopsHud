@@ -43,7 +43,7 @@ and copy your `viewed.res` file as this holds the local data of how many times y
 
 To uninstall: `Steam Client Library > Right Click Team Fortress 2 > Manage > Uninstall`  
 
-Navigate to `C:\Program Files (x86)\Steam\steamapps\common` and verify `Team Fortress 2` is deleted.  
+Navigate to `C:\Program Files (x86)\Steam\steamapps\common` and verify `Team Fortress 2` folder is deleted.  
 
 To reinstall: `Steam Client Library > Click Team Fortress 2 > Install`
 
@@ -56,10 +56,10 @@ Remember to drop `viewed.res` back in `C:\Program Files (x86)\Steam\steamapps\co
 # Launch Options
 These settings are crtical to optimizing your game.  
 
-Navigate to `Steam Client Library > Right Click Team Fortress 2 > Properties > General > Launch Options`
+Navigate to `Steam Client Library > Right Click Team Fortress 2 > Properties > General > Launch Options`.
 There are many flags we can use that aren't mentioned in this readme you can [find here](https://docs.mastercomfig.com/9.10.1/pt/customization/launch_options/#recommended-launch-options) or by googling.
 It's not a good idea to try and use all the flags, some are for a different game on this engine, and some are deprecated. 
-If your string is too long it will get deleted once you refresh the steam client.
+If your launch option string is too long it will get deleted once you refresh the steam client.
 
 The flags I use on windows are:  
 `-sw -noborder -w 1920 -dxlevel 98 -freq 240 -sillygibs -enablefakeip -particles 1 -precachefontchars -noff -novid -nojoy -nohltv -nosteamcontroller -noquicktime`  
