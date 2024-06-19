@@ -278,12 +278,20 @@
 #         Write-Host "Cleaning up..."
 #         Remove-Item -Path $extractedFolderPath -Recurse -Force
 #         Remove-Item -Path $downloadPath -Force
+#         # Adjust the file attributes
+#         attrib +h +r "./desktop.ico"
+#         attrib +h +r "./desktop.ini"
+#         attrib +h +r "./DoubleClickSwoopsHudUpdater.ps1"
+#         attrib +h +r "./info.vdf"
+#         attrib -h +r "./README.md"
+#         attrib +h +r "./removal.ps1"
+#         Write-Host "Adjusting the file attributes"
 #         # Display completion messages
-#         Write-Host "Update complete. You are up to date." -ForegroundColor DarkRed
+#         Write-Host "Completed. You are up to date. Let this window close itself to finish!" -ForegroundColor DarkRed
 #         Write-Host "Updates may come daily or yearly but this project will be completed to perfection."
 #         Write-Host "Please feel free to contribute to the hud on GitHub."
 #         # Set and display countdown to the user
-#         $sleepSeconds = 10
+#         $sleepSeconds = 11
 #         # Countdown loop
 #         for ($i = $sleepSeconds; $i -ge 0; $i--) {
 #             # Clear the line before writing the countdown
@@ -296,11 +304,11 @@
 #         # Clear the countdown message after the loop
 #         Write-Host "`r" -NoNewline
 #         Write-Host "`r" -NoNewline
-#         # Path to the batch file
-#         $batchFilePath = "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\removal.bat"
-#         # Check if the batch file exists and run
+#         # Path to the PowerShell script
+#         $batchFilePath = "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\removal.ps1"
+#         # Check if the script file exists and run
 #         if (Test-Path $batchFilePath) {
-#             Start-Process -FilePath $batchFilePath -NoNewWindow
+#             Start-Process -FilePath "powershell.exe" -ArgumentList "-File `"$batchFilePath`"" -NoNewWindow
 #         }
 #         exit
 #     } catch {
