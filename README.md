@@ -62,7 +62,8 @@ It's not a good idea to try and use all the flags, some are for a different game
 If your launch option string is too long it will get deleted once you refresh the steam client.
 
 The flags I use on windows are:  
-`-sw -noborder -w 1920 -dxlevel 98 -freq 240 -sillygibs -enablefakeip -particles 1 -precachefontchars -noff -novid -nojoy -nohltv -nosteamcontroller -noquicktime`  
+
+    -sw -noborder -w 1920 -dxlevel 98 -freq 240 -sillygibs -enablefakeip -particles 1 -precachefontchars -noff -novid -nojoy -nohltv -nosteamcontroller -noquicktime
 
 Let's break this down into sections so you can adjust it for yourself.  
 ##### CLIENT WINDOW
