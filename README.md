@@ -67,41 +67,41 @@ The flags I use on windows are:
 
 Let's break this down into sections so you can adjust it for yourself.  
 ##### CLIENT WINDOW
--fullscreen : Forces the engine to start in fullscreen mode.  
--windowed or -sw : Forces the engine to start in windowed mode. 
--noborder : Removes the windows border
--w [width] : Forces the engine to start with resolution set to [width].  
--h [height] : Forces the engine to start with resolution set to [height]. This launch option does not need to be set in the presence of -w. The width value will determine the height automatically.  
+-fullscreen : Forces the engine to start in fullscreen mode.   
+-windowed or -sw : Forces the engine to start in windowed mode.   
+-noborder : Removes the windows border   
+-w [width] : Forces the engine to start with resolution set to [width].   
+-h [height] : Forces the engine to start with resolution set to [height]. This launch option does not need to be set in the presence of -w. The width value will determine the height automatically.   
 ##### DXLEVEL
--dxlevel 80 : lowest dx, dx7 crashs on load
--dxlevel 81 : these levels aren't advised
--dxlevel 90 : these levels aren't advised
--dxlevel 95 : Where the game gets stable
--dxlevel 98 : newest
+-dxlevel 80 : lowest dx, dx7 crashs on load   
+-dxlevel 81 : these levels aren't advised   
+-dxlevel 90 : these levels aren't advised   
+-dxlevel 95 : Where the game gets stable   
+-dxlevel 98 : newest   
 ##### SCREEN REFRESH RATE
--freq 60
--freq 120
--freq 144
--freq 240
+-freq 60   
+-freq 120   
+-freq 144   
+-freq 240   
 ##### SILLYGIBS
--sillygibs : enables low violence for gibs in Team Fortress 2. TURN IT ON!
+-sillygibs : enables low violence for gibs in Team Fortress 2. TURN IT ON!   
 ##### LEAVE THESE ON TYPICALLY
--enablefakeip : creates a fake ip when using community servers for network security
--particles 1 : limits beam count to the minimum of 512
--precachefontchars : precaches font rendering for common characters
--noff : Disables feedback for controllers
--novid : disables Valve startup logo, saves time
--nojoy : stops Joystick system from starting up, faster startup and less memory usage
--nohltv : disables SourceTV hosting, less resource usage
--nosteamcontroller : disables Steam controller system, faster startup, less memory usage and less input conflicts
--noquicktime : disables initializing Quicktime. If you use the replay rendering feature, do not use this. Does not do anything on Linux
+-enablefakeip : creates a fake ip when using community servers for network security   
+-particles 1 : limits beam count to the minimum of 512   
+-precachefontchars : precaches font rendering for common characters   
+-noff : Disables feedback for controllers   
+-novid : disables Valve startup logo, saves time   
+-nojoy : stops Joystick system from starting up, faster startup and less memory usage   
+-nohltv : disables SourceTV hosting, less resource usage   
+-nosteamcontroller : disables Steam controller system, faster startup, less memory usage and less input conflicts   
+-noquicktime : disables initializing Quicktime. If you use the replay rendering feature, do not use this. Does not do anything on Linux   
 ##### ADDITIONAL FLAGS NOT NEEDED
--dev : removes confirm to quit, stops backgrounds from loading
--console : enables the console on launch
--nosound : disables sound
--nostartupsound : disables game music on main menu
--no_texture_stream : disables texture streaming. Useful if you are on a powerful system with fast texture access and not under video memory pressure.
--autoconfig : resets graphics quality to recommended for your hardware. Useful with the None Preset. Remove after the first launch.
+-dev : removes confirm to quit, stops backgrounds from loading   
+-console : enables the console on launch   
+-nosound : disables sound   
+-nostartupsound : disables game music on main menu   
+-no_texture_stream : disables texture streaming. Useful if you are on a powerful system with fast texture access and not under video memory pressure.   
+-autoconfig : resets graphics quality to recommended for your hardware. Useful with the None Preset. Remove after the first launch.   
 
 
 
