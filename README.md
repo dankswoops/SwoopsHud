@@ -148,21 +148,37 @@ If you decide to implement settins yourself, make sure you only put all class bi
 
 
 # How to setup a 12 button mouse
-This hud was built around having a RedDragon M913 mouse with 12 hotkeys.  
-If you're going to play a game, it's really worth having this mouse and binds.  
-The mouses software and mouse premade settings will be in the "mouse" folder  
-
-
-
-# Bugs & future updates
+This hud was built around having a RedDragon M913 mouse with 12 hotkeys.   
+If you're going to play a game, it's worth having this mouse or one like it and these binds.   
+The mouses software and mouse premade settings will be in the "mouse" folder   
+There's an guide in `SwoopsHud/mouse/ATLAS.md`
 
 
 
 # How to use mods and the built in pre-loader
+To enable the pre-loader go to `SwoopsHud/cfg/valve.rc` and uncomment the last line from `//exec autopreloader` to `exec autopreloader`.
+The will make the game take several times longer to load but it will allow you to play with casual compatible mods in casual servers.   
+
+To enable Mods, navigate inside `SwoopsHud/mods/`, you will find .vpk files here. Drag the ones you want to use from 
+`C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\mods` 
+to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom` 
+to enable them. You can delete their sound cache anytime. YES, YOU JUST GOT A GOLD PAN IN CASUAL. No, this vpk isn't even on game banana yet. >:)
+
+
+# Bugs & future updates
+CURRENT BUGS BEING FIXED IN ORDER:   
+1. RankPanel is post game scoreboard   
+1. Dual on custom scoreboard is broken   
+
+CURRENT UPDATES IN ORDER:
+1. HotSwap HUD Custom Team Health
+1. HotSwap HUD Custom Post game scoreboard
+1. HotSwap HUD Custom Casual Hud Elements
 
 
 
 # Release History
+
 ### v0.99 - 2024/06: PRE-RELEASE 
 Commit   : first push 🥳🎉 & testing  
 Changelog:  
@@ -170,5 +186,5 @@ Changelog:
 
 
 # Special thanks
-
+my bitches
 
