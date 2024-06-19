@@ -116,7 +116,7 @@ Navigate to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cf
 
 
 You can install SwoopsHud two different ways.   
-Automatically : download the DoubleClickSwoopHudUpdater.exe and run it on windows.   
+Automatically : download the `DoubleClickSwoopHudUpdater.exe` and run it on windows.   
 Manually : download the entire repo, unzip the folder, and put it here.   
 `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\`   
 
