@@ -379,7 +379,7 @@ Changelog:
 
 
 # Special thanks
-Hypnotize, JarateKing, revan, peaches, VillageGreenPreserver, fellen, techno, Jofre, quickkennedy, afbiklwnef njw;kfn jn.kj.h, BrainrotHud!, waste, and scout from HUDS.TF.   
+Hypnotize, JarateKing, revan, peaches, VillageGreenPreserver, fellen, Whisker, DrinkinTea, techno, Jofre, quickkennedy, afbiklwnef njw;kfn jn.kj.h, Rayshud, BrainrotHud!, waste, and scout from HUDS.TF.   
 mastercomfig for the config advice.   
 Skymin for the SFM MvM wallpaper.   
 Robo-Katsu! E: and Tumby for help with BSP files.   
