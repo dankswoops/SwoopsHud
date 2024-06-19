@@ -140,7 +140,7 @@ This is how we prime out server with commands on load without entering them in e
 
 ON CLASS SELECTION:    AUTOBIND.CFG > CLASSNAME.CFG   
 AutoBind is not called by the game but each class file is. By calling autobind, unbinding all, rebinding all, and then loading the class controls, we never have any issues in configs.
-If you decide to implement settins yourself, make sure you only put all class binds in autobind or you will have issues.
+If you decide to implement settins yourself, make sure you only put all class not class only binds in autobind or you will have issues.
 
 
 # Bindings and all class cfg files
