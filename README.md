@@ -1,5 +1,9 @@
 #### If you enjoy this content, please star this repo.
 
+#### For quick install
+<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer here</a>.
+
+
 # Table Of Contents
 1. [Introduction and version](#swoopshud)
 1. [How to delete TF2 and reinstall the right way](#how-to-delete-tf2-and-reinstall-the-right-way)
