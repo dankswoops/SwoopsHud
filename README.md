@@ -13,7 +13,8 @@
  
 
 
-# SwoopsHud v0.99 (Pre-Release)
+# SwoopsHud
+### v0.99 (Pre-Release)
 SwoopsHud is a user interface for the game team fortress 2.  
 This is the first HUD trying to achieve customizing all aspects of the game that can be modified for the end user so they don't have to know anything and have a noticable advantage.
 In the current day, many HUDs have zero styling on the main menu and associated panels along with having broken panels that require you to remove your HUD to add or remove a name tag, spell, part, etc.
