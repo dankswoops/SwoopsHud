@@ -22,6 +22,7 @@ Only a few HUDs have a cvar control panel, the intergration of a speedometer, tr
 
 SwoopsHud offers more than the normal hud by:
 1. Making the first complete set of default +12 button mouse binds with all class cfgs that have the best possible bind logic perclass.
+1. Medic has super powers with rebinding hudthresholdcaller into the null movement script, overwritting the sound, and changing the icon. Just press W on medic to see...
 1. Nearly all of main menu content is stylized and optimized for daily use.
 1. All panels accesible and fully functional. (excluding Stats, fix coming soon)
 1. The pre-loader was absorbed into the hud with pre-packaged mods the player can easily access to allow for a one line toggle.
@@ -117,8 +118,8 @@ Navigate to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cf
 
 
 You can install SwoopsHud two different ways.   
-==Automatically== : download the `DoubleClickSwoopHudUpdater.exe` and run it on windows.   
-==Manually== : download the entire repo, unzip the folder, and put it here.   
+<u>Automatically</u> : download the `DoubleClickSwoopHudUpdater.exe` and run it on windows.   
+<u>Manually</u> : download the entire repo, unzip the folder, and put it here.   
 `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\`   
 
 You are now up to date. Click the updater any time to handle this in the future.   
@@ -145,6 +146,182 @@ If you decide to implement settins yourself, make sure you only put all class no
 
 
 # Bindings and all class cfg files
+The biggest part of this pack is the binds. I spent sleepless hours balancing each button with extreme scrutiny making a collective piece. Please try these settings before modifying it.   
+
+ASWD has a null movement script built in with medic threshold caller built into that.   
+SHIFT + SCROLLWHEEL : Allows you to change your viewmodel FOV in real time.    
+M4 : Auto attack toggle   
+MOUSE 10, 11, 12, 9 : Changes your loadout   
+FKEYS : Vote next map, point of view, screenshot, graphs, kill, explode, abuse, retry (AT THE TOP RIGHT QUICK TO HIT)   
+For a normal taunt window change `"G" "taunt"` to `"G" "+taunt"`   
+You should bind you taunts to the ALT, RCTRL, RSHIFT, and other keys near there.   
+Use this [guide](https://steamcommunity.com/sharedfiles/filedetails/?id=293350685). Don't name the usual effect and make sure it's equiped. Class overwrites autobind.   
+THE MOST POWERFUL TAUNTS IN CASUAL ARE : The high five (instant quit, silent, great for a loaded corner peaking beggers) and the conga (can active into walls for 3d corner peaking, makes sound)    
+
+
+    /// ROW 1 BETTER F-KEYS
+    bind "ESCAPE" "escape"
+    bind "F1" "next_map_vote 0"
+    bind "F2" "next_map_vote 1"
+    bind "F3" "next_map_vote 2"
+    bind "F4" "player_ready_toggle"
+    bind "F5" "bindthirdperson"
+      alias "bindthirdperson" "thirdperson 1; tf_medieval_thirdperson 1; bind F5 bindfirstperson"
+      alias "bindfirstperson" "firstperson 1; tf_medieval_thirdperson 0; bind F5 bindthirdperson" 
+    bind "F6" "pointofview"
+      alias "pointofview" "toggle cl_first_person_uses_world_model; toggle tf_taunt_first_person"
+    bindtoggle "F7" "tf_use_min_viewmodels"
+    bindtoggle "F8" "r_drawtracers_firstperson"
+    bind "F9" "screenshot"
+    bind "F10" "incrementvar net_graph 0 4 4; incrementvar cl_showpos 0 1 1; incrementvar cl_showfps 0 1 1; net_graphpos 2"
+    bind "F11" "kill"
+    bind "F12" "explode"
+    //bind "PRINTSCREEN" "CANT BIND"
+    bind "SCROLLLOCK" "abuse_report_queue"
+    bind "NUMLOCK" "retry"
+    
+    /// ROW 2 BETTER NUMBERS
+    bind "`" "ds_mark; playgamesound Engineer.Yes02"
+    bind "1" "slot1"
+    bind "2" "slot2"
+    bind "3" "slot3"
+    bind "4" "slot4"
+    bind "5" "slot5"
+    bind "6" "slot6"
+    bind "7" "slot7"
+    bind "8" "slot8"
+    bind "9" "slot9"
+    bind "0" "slot10"
+    //bind "-" ""
+    //bind "=" ""
+    bind "BACKSPACE" "cl_decline_first_notification"
+    bindtoggle "INS" "crosshair"
+    bindtoggle "HOME" "r_drawviewmodel"
+    bindtoggle "PGUP" "cl_drawhud"
+    
+    /// ROW3 BETTER TEAM FORTRESS
+    bind "TAB" "+showscores"
+    //bind "Q" "lastinv"
+    //bind "W" "+forward"
+    bind "E" "+helpme"
+    bind "R" "+reload"
+    bind "T" "changeclass"
+    bind "Y" "+quickswitch"
+    bind "U" "open_charinfo_direct"
+    bind "I" "changeteam"
+    bind "O" "open_charinfo_backpack"
+    bind "P" "say_party"
+    //bind "[" ""
+    //bind "]" ""
+    //bind "\" "CANT BIND"
+    bind "DEL" "chat"
+      alias "chat" "chat_off"
+      alias "chat_on" "hud_saytext_time 12; alias chat chat_off; playgamesound scout.specialcompleted12"
+      alias "chat_off" "hud_saytext_time 0; alias chat chat_on; playgamesound spy.dominationscout07"
+    bind "END" "voice"
+      alias "voice" "voice_off"
+      alias "voice_on" "voice_modenable 1; voice_scale 1; alias voice voice_off; playgamesound scout.specialcompleted12"
+      alias "voice_off" "voice_modenable 0; voice_scale 0; alias voice voice_on; playgamesound spy.dominationscout07"
+    bind "PGDN" "killfeed"
+      alias "killfeed" "killfeed_off"
+      alias "killfeed_on" "hud_deathnotice_time 6; alias killfeed killfeed_off; playgamesound scout.specialcompleted12"
+      alias "killfeed_off" "hud_deathnotice_time 0; alias killfeed killfeed_on; playgamesound spy.dominationscout07"
+
+    /// ROW4 BETTER TEAM FORTRESS
+    bind "CAPSLOCK" "impulse 101"
+    //bind "A" "+moveleft"
+    //bind "S" "+back"
+    //bind "D" "+moveright"
+    bind "F" "+inspect"
+    bind "G" "taunt"
+    bind "H" "+use_action_slot_item"
+    bind "J" "dropitem"
+    bind "K" "impulse 201"
+    //bind "L" ""
+    //bind "SEMICOLON" ""
+    //bind "'" ""
+    bind "ENTER" "cl_trigger_first_notification"
+
+    /// ROW5 BETTER COMMUNICATION
+    //bind "SHIFT" ""
+    bind "Z" "voicemenu 0 1"
+    bind "X" "voice_menu_2"
+    bind "C" "voice_menu_3"
+    bind "V" "+voicerecord"
+    bind "B" "say"
+    bind "N" "say_team"
+    bind "M" "say_party"
+    bind "," "changeclass"
+    bind "." "changeteam"
+    bind "/" "taunt_by_name Taunt: The Victory Lap"
+    bind "RSHIFT" "taunt_by_name Taunt: The High Five!" // Class Overwrite Button
+
+    /// ROW6
+    bind "CTRL" "+duck"
+    //bind "LWIN" "CANT BIND"
+    //bind "ALT" ""
+    bind "SPACE" "+jump"
+    bind "RALT" "taunt_by_name Taunt: The High Five!"
+    //bind "RWIN" "CANT BIND"
+    //bind "MENU" "CANT BIND"
+    bind "RCTRL" "taunt_by_name Taunt: Conga"
+
+    /// ARROWS
+    bind "LEFTARROW" "load_itempreset 0"
+    bind "UPARROW" "load_itempreset 1"
+    bind "RIGHTARROW" "load_itempreset 2"
+    bind "DOWNARROW" "load_itempreset 3"
+
+
+##### ALL CLASS 
+Q : Quick Switch Primary and Secondary   
+M3 : Melee Weapon or Sapper   
+All classes will verbally say the word "NO" on class load if `wait` is disabled on this server. All Classes have a waitTester so the game will not crash from wait.   
+
+##### SCOUT
+M2 : Zoom in.   
+
+##### SOLDIER
+M3-UP, M3-DOWN : Continue B-HOP for gardens.    
+ALT : One click best rocket jump script, alters height because server wait time.   
+
+##### PYRO
+R : Battle Cry, Spin at bot speed for crowd attacks.   
+ALT : One click best detonator jump script,  alters height because server wait time.    
+
+##### DEMOMAN
+M4 : Auto spam M1 and M2 through an entire 8 stickies. Amazing for base jumping corner sentries.   
+
+##### HEAVYWEAPONS
+M3-UP : Toss sandwich faster from gun faster.    
+M3 : Eat sandwich.   
+M3-DOWN : Toss sandwich from fists.    
+
+##### ENGINEER
+R : Eureka Spawn.   
+4 : Eureka Exit.   
+5 : Unbound.   
+ALT : Level 3 Sentry jump, Grab Sentry before jump, Land behind enemy lines with gun.   
+
+##### MEDIC
+W : Native Medic Walls on CRACK.   
+C : Voicemask.   
+M2 : Unable to ubersaw taunt with M2, drops item, no matter what you will uber safely.   
+
+##### SNIPER
+M2 : Can't unscope by accident.   
+ALT : No Scope Native FOV Zoom
+R : Toggle auto rescope with voice notification
+SCOPE REMOVED ON LOCAL SERVER SECOND SNIPER LOAD
+
+##### SPY (THE BEST FOR LAST!)
+M3 : Sapper returns to knife.   
+R : RELOAD ACTING manual reload is enabled for acting.   
+C : VOICE ACTING random voiceline.   
+M4 : Unload a whole revolver on someone, cloak, and go to your last disguise, it goes hard.   
+1, 2, 3, 4, 5, 6, 7, 8, and 9 : Changes you to your teams class.   
+12 BUTTON MOUSE 1, 2, 3, 4, 5, 6, 7, 8, and 9 : Changes you to the enemy teams class.   
+12 BUTTON MOUSE 10, 11, 12 : WEAPON ACTING change the disguise weapon to 1, 2, or 3 and switch back to your knife.   
 
 
 
