@@ -54,7 +54,8 @@ Remember to drop `viewed.res` back in `C:\Program Files (x86)\Steam\steamapps\co
 
 
 # Launch Options
-These settings are crtical to optimizing your game.  
+These settings are crtical to optimizing your game.   
+Also stop calling `-autoexec` in launch options, this doesn't work. You can't execute ANY files here. Read the section `How the game files work`   
 
 Navigate to `Steam Client Library > Right Click Team Fortress 2 > Properties > General > Launch Options`.
 There are many flags we can use that aren't mentioned in this readme you can [find here](https://docs.mastercomfig.com/9.10.1/pt/customization/launch_options/#recommended-launch-options) or by googling.
@@ -127,10 +128,19 @@ While in game, use Tab + Shift to navigate to `Steam Overlay > Settings > In Gam
 
 
 # How the game files work
-/// ON GAME LOAD:          VALVE.RC > AUTOEXEC.CFG > AUTOCONFIG.CFG
-/// ON LOCAL SERVER LOAD:  LISTENSERVER.CFG
-/// ON CLASS SELECTION:    AUTOBIND.CFG > CLASSNAME.CFG
+TF2 HUD Devs are like frontend devs/testers. The backend is fixed and sometimes hardcoded. 
+Once you understand what files are being called in what order, you can understand the structure of these files.   
 
+ON GAME LOAD:          LAUNCH OPTIONS > VALVE.RC > AUTOEXEC.CFG > AUTOCONFIG.CFG   
+If valve.rc is present, autoexec.cfg will not run unless you call it. The orignal file calls it and when you have it without calling it, you overwrite the file that does.   
+AutoConfig does not get called by the game but it is logical to call the global commands all users need in the autoexec and the perfomance settings that change depending on the user store here.   
+
+ON LOCAL SERVER LOAD:  LISTENSERVER.CFG   
+This is how we prime out server with commands on load without entering them in each time.   
+
+ON CLASS SELECTION:    AUTOBIND.CFG > CLASSNAME.CFG   
+AutoBind is not called by the game but each class file is. By calling autobind, unbinding all, rebinding all, and then loading the class controls, we never have any issues in configs.
+If you decide to implement settins yourself, make sure you only put all class binds in autobind or you will have issues.
 
 
 # Bindings and all class cfg files
