@@ -362,6 +362,7 @@ CURRENT BUGS BEING FIXED IN ORDER:
 CURRENT UPDATES IN ORDER:   
 1. Create TF2HUDS.com
 1. Create Grand Launch Video
+1. Swap Uncle Dane servers button for Quickplay button `https://comfig.app/quickplay/`
 1. Fix Bugs and update to 1.00
 1. Compiling all 4,000 commands into a swoopshud master config (autoexec, autoconfig)
 1. HotSwap HUD Custom Team Health   
