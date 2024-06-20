@@ -344,7 +344,7 @@ The will make the game take several times longer to load but it will allow you t
 To enable Mods, navigate inside `SwoopsHud/mods/`, you will find .vpk files here. Drag the ones you want to use from 
 `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud\mods` 
 to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom` 
-to enable them. You can delete their sound cache anytime. YES, YOU JUST GOT A GOLD PAN IN CASUAL. No, this vpk isn't on game banana. 🍷🗿
+to enable them. You can delete their sound cache anytime. YES, you just got a golden pan in casual. No, this vpk isn't on game banana. 🍷🗿
 
 What is the future of TF2? It's an old game but things like the base file intergation and speedometers were only recently discovered.  
 
