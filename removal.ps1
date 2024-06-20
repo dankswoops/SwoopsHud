@@ -8,12 +8,12 @@ Start-Sleep -Seconds 2
 Remove-Item -Path ".\DoubleClickSwoopsHudUpdater.exe" -Force -ErrorAction SilentlyContinue
 
 # 2a - ADJUST THE FILE ATTRIUTES - REDUNDANCY
-attrib +h +r "./desktop.ico"
-attrib +h +r "./desktop.ini"
-attrib +h +r "./DoubleClickSwoopsHudUpdater.ps1"
-attrib +h +r "./info.vdf"
-attrib -h +r "./README.md"
-attrib +h +r "./removal.ps1"
+#attrib +h +r "./desktop.ico"
+#attrib +h +r "./desktop.ini"
+#attrib +h +r "./DoubleClickSwoopsHudUpdater.ps1"
+#attrib +h +r "./info.vdf"
+#attrib -h +r "./README.md"
+#attrib +h +r "./removal.ps1"
 
 # 3a - PATH TO UPDATE FOLDER ICON
 $FolderPath = "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud"
