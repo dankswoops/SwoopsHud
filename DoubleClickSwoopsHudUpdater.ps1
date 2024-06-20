@@ -2,13 +2,12 @@
 # TO HELP THE COMMUNITY I OPEN SOURCED THIS CODE I CRAFTED
 # CODE ONE IS THE FINAL PRODUCT, WHAT YOU ARE CLICKING ON
 # CODE TWO IS THE ORIGNAL DESIGN IN PS1 THAT LEAD TO EXE TESTING
+# TO UNCOMMENT, HIGHLIGHT AND 'CTRL' + '/' IN VSC
 
 
-
-
-#────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
-#─ FINAL PRODUCT EXECUTABLE OPEN SOURCE ─────────────────────────────────────────────────────────────────────────────────────#
-#────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
+#──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
+#─ FINAL PRODUCT EXECUTABLE OPEN SOURCE ───────────────────────────────────────────────────────────────────────────────────────#
+#──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
 # # Pin the window to 0,0. Define the necessary .NET types and methods
 # Add-Type @"
 #     using System;
@@ -325,14 +324,9 @@
 # Phase5
 
 
-
-
-
-
-
-#────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
-#─ ORIGNAL PS1 SCRIPT ───────────────────────────────────────────────────────────────────────────────────────────────────────#
-#────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
+#──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
+#─ ORIGNAL PS1 SCRIPT ─────────────────────────────────────────────────────────────────────────────────────────────────────────#
+#──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────#
 # Write-Host " "
 # Write-Host " "
 # Write-Host "────────────────────── Thank you for using ──────────────────────────"
@@ -482,11 +476,9 @@
 # function Phase6 {
 #     Write-Host " "
 #     Write-Host "─ Phase 6: Downloading and updating the HUD from GitHub ─────────────"
-
 #     # Ensure we are in the correct directory
 #     $customPath = "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud"
 #     Set-Location -Path $customPath
-
 #     try {
 #         # Clear all files inside the SwoopsHud folder
 #         Get-ChildItem -Path $customPath | Remove-Item -Force -Recurse
@@ -517,8 +509,6 @@
 #         exit
 #     }
 # }
-
-
 # Phase5
 
 # # Keep the terminal open until user interaction
