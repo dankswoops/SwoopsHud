@@ -70,7 +70,7 @@ If your launch option string is too long it will get deleted once you refresh th
 
 The flags I use on windows are:  
 
-    -sw -noborder -w 1920 -dxlevel 98 -freq 240 -sillygibs -enablefakeip -particles 1 -precachefontchars -noff -novid -nojoy -nohltv -nosteamcontroller -noquicktime
+    -sw -noborder -w 1920 -dxlevel 95 -freq 240 -sillygibs -enablefakeip -particles 1 -precachefontchars -noff -novid -nojoy -nohltv -nosteamcontroller -noquicktime
 
 Let's break this down into sections so you can adjust it for yourself.  
 ##### CLIENT WINDOW
@@ -83,8 +83,8 @@ Let's break this down into sections so you can adjust it for yourself.
 -dxlevel 80 : lowest dx, dx7 crashs on load   
 -dxlevel 81 : these levels aren't advised   
 -dxlevel 90 : these levels aren't advised   
--dxlevel 95 : Where the game gets stable   
--dxlevel 98 : newest   
+-dxlevel 95 : USE THIS ONE 
+-dxlevel 98 :  
 ##### SCREEN REFRESH RATE
 -freq 60   
 -freq 120   
