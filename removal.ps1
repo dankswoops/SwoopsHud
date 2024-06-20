@@ -7,7 +7,7 @@ Start-Sleep -Seconds 2
 # 1c - DELETE OLD UPDATER
 Remove-Item -Path ".\DoubleClickSwoopsHudUpdater.exe" -Force -ErrorAction SilentlyContinue
 
-# 2a - ADJUST THE FILE ATTRIUTES
+# 2a - ADJUST THE FILE ATTRIUTES - REDUNDANCY
 attrib +h +r "./desktop.ico"
 attrib +h +r "./desktop.ini"
 attrib +h +r "./DoubleClickSwoopsHudUpdater.ps1"
