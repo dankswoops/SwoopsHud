@@ -357,6 +357,7 @@ Soon you will be able to see your loadout in casual. The only thing we need now 
 CURRENT BUGS BEING FIXED IN ORDER:   
 1. RankPanel is post game scoreboard   
 1. Dual on custom scoreboard is broken
+1. round shadow time is in spectator? but not the white number
 
 CURRENT UPDATES IN ORDER:   
 1. Create TF2HUDS.com
