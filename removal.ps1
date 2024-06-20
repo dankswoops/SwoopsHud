@@ -1,20 +1,26 @@
-# SET PATH
+# 1a - INIT PATH
 Set-Location -Path "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom"
 
-# WAIT 1
-Start-Sleep -Seconds 1
+# 1b - WAIT 2
+Start-Sleep -Seconds 2
 
-# DELETE OLD UPDATER
+# 1c - DELETE OLD UPDATER
 Remove-Item -Path ".\DoubleClickSwoopsHudUpdater.exe" -Force -ErrorAction SilentlyContinue
 
-# UPDATE FOLDER TICON
+# 2a - ADJUST THE FILE ATTRIUTES
+attrib +h +r "./desktop.ico"
+attrib +h +r "./desktop.ini"
+attrib +h +r "./DoubleClickSwoopsHudUpdater.ps1"
+attrib +h +r "./info.vdf"
+attrib -h +r "./README.md"
+attrib +h +r "./removal.ps1"
+
+# 3a - PATH TO UPDATE FOLDER ICON
 $FolderPath = "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\SwoopsHud"
 $IconFile = "folder.ico"
-
-# PATH desktop.ini
 $desktopIniPath = Join-Path -Path $FolderPath -ChildPath "desktop.ini"
 
-# REFRESH FOLDER
+# 3b - REFRESH FOLDER
 $shell = New-Object -ComObject Shell.Application
 $folder = $shell.Namespace($FolderPath)
 $item = $folder.Self
