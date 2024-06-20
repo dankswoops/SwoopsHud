@@ -1,6 +1,6 @@
 #### If you enjoy this content, please star this repo.
 
-<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer</a> to install the package seemlessly. Map packages getting solved soon.
+<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer</a> to install the package seemlessly.
 
 
 # Table Of Contents
@@ -22,8 +22,6 @@
 ### v0.99 (Pre-Release) (50 MAPS NOT UPLOADED TO GITHUB YET)
 SwoopsHud is a user interface for the game team fortress 2.  
 This is the first HUD trying to achieve customizing all aspects of the game that can be modified for the end user so they don't have to know anything and have a noticable advantage.
-In the current day, many HUDs have zero styling on the main menu and associated panels along with having broken panels that require you to remove your HUD to add or remove a name tag, spell, part, etc.
-Only a few HUDs have a cvar control panel, the intergration of a speedometer, transparent viewmodels, and base file intergration.
 
 SwoopsHud offers more than the normal hud by:
 1. Making the first complete set of default +12 button mouse binds with all class cfgs that have the best possible bind logic perclass.
