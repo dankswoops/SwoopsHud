@@ -358,7 +358,8 @@ Soon you will be able to see your loadout in casual. The only thing we need now 
 
 # Bugs and future updates
 CURRENT BUGS BEING FIXED IN ORDER:  
-1. YOU FORGOT TO UPLOAD THE UNCLE DANE ALBUM YOU BIG DUMMY   
+1. YOU FORGOT TO UPLOAD THE UNCLE DANE ALBUM YOU BIG DUMMY
+1. fix crafting scrap, increase the dashboard size, remove some buttons and add to a window like Architect' button with an 'Extras' button that would instead drop-down with the DemoUI, Skybox, Random, Item Test, Architect, Refresh buttons
 1. RankPanel is post game scoreboard   
 1. Dual on custom scoreboard is broken
 1. round shadow time is in spectator? but not the white number
