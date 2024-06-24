@@ -133,19 +133,22 @@ While in game, use Tab + Shift to navigate to `Steam Overlay > Settings > In Gam
 
 
 # How the game files work
-TF2 HUD Devs are like frontend devs/testers. The backend is fixed and sometimes hardcoded. 
-Once you understand what files are being called in what order, you can understand the structure of these files.   
+TF2 HUD Devs are like frontend devs/testers. The backend is fixed and sometimes hardcoded.   
+Once you understand what files are being called in what order, you can understand the structure of these files.    
+The file structure in `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\` and the `.dir` files contain all the games items.   
+When you put an item into `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\anyFolderName\` and mimic the `tf` folder you overwrite the file.   
+The game only loads `valve.rc` on load not `autoexec`.   
+The default `valve.rc` file calls `autoexec` to run. If you overwrite `valve.rc` and don't call `autoexec` it will not run.   
+If you don't overwrite `valve.rc`, `autoexec` will always run.  
 
-ON GAME LOAD:          LAUNCH OPTIONS > VALVE.RC > AUTOEXEC.CFG > AUTOCONFIG.CFG   
-If valve.rc is present, autoexec.cfg will not run unless you call it. The orignal file calls it and when you have it without calling it, you overwrite the file that does.   
-AutoConfig does not get called by the game but it is logical to call the global commands all users need in the autoexec and the perfomance settings that change depending on the user store here.   
+This is the SwoopsHud file structure.   
 
-ON LOCAL SERVER LOAD:  LISTENSERVER.CFG   
-This is how we prime out server with commands on load without entering them in each time.   
+ON GAME LOAD............LAUNCH OPTIONS > VALVE.RC > AUTOEXEC.CFG > AUTOCONFIG.CFG   
+ON LOCAL SERVER LOAD....LISTENSERVER.CFG   
+ON CLASS SELECTION......AUTOBIND.CFG > CLASSNAME.CFG   
 
-ON CLASS SELECTION:    AUTOBIND.CFG > CLASSNAME.CFG   
-AutoBind is not called by the game but each class file is. By calling autobind, unbinding all, rebinding all, and then loading the class controls, we never have any issues in configs.
-If you decide to implement settins yourself, make sure you only put all class not class only binds in autobind or you will have issues.
+Console will echo all files loaded.   
+
 
 
 # Bindings and all class cfg files
