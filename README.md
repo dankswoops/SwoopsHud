@@ -1,5 +1,6 @@
 #### If you enjoy this content, please star this repo.
 
+
 <a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer</a> to install the package seemlessly. (Needs update to create removal.bat, if it doesn't exist in file path/ Check desktop.ico ini is working as well)
 
 
@@ -356,7 +357,8 @@ Soon you will be able to see your loadout in casual. The only thing we need now 
 
 
 # Bugs and future updates
-CURRENT BUGS BEING FIXED IN ORDER:   
+CURRENT BUGS BEING FIXED IN ORDER:  
+1. YOU FORGOT TO UPLOAD THE UNCLE DANE ALBUM YOU BIG DUMMY   
 1. RankPanel is post game scoreboard   
 1. Dual on custom scoreboard is broken
 1. round shadow time is in spectator? but not the white number
