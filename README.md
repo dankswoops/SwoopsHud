@@ -61,7 +61,7 @@ Remember to drop `viewed.res` back in `C:\Program Files (x86)\Steam\steamapps\co
 
 # Launch Options
 These settings are crtical to optimizing your game.   
-Also stop calling `-autoexec` in launch options, this doesn't work. You can't execute ANY files here. Read the section `How the game files work`   
+Also stop calling `-autoexec` in launch options, this doesn't work. You can't execute ANY files here. Read this section [How the game files work](#how-the-game-files-work)  
 
 Navigate to `Steam Client Library > Right Click Team Fortress 2 > Properties > General > Launch Options`.
 There are many flags we can use that aren't mentioned in this readme you can [find here](https://docs.mastercomfig.com/9.10.1/pt/customization/launch_options/#recommended-launch-options) or by googling.
