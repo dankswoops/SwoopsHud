@@ -143,9 +143,9 @@ If you don't overwrite `valve.rc`, `autoexec` will always run.
 
 This is the SwoopsHud file structure.   
 
-ON GAME LOAD............LAUNCH OPTIONS > VALVE.RC > AUTOEXEC.CFG > AUTOCONFIG.CFG   
-ON LOCAL SERVER LOAD....LISTENSERVER.CFG   
-ON CLASS SELECTION......AUTOBIND.CFG > CLASSNAME.CFG   
+ON GAME LOAD:           LAUNCH OPTIONS > VALVE.RC > AUTOEXEC.CFG > AUTOCONFIG.CFG   
+ON LOCAL SERVER LOAD:   LISTENSERVER.CFG   
+ON CLASS SELECTION:     AUTOBIND.CFG > CLASSNAME.CFG   
 
 Console will echo all files loaded.   
 
