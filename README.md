@@ -24,17 +24,16 @@ SwoopsHud is a user interface for the game team fortress 2.
 This is the first HUD trying to achieve customizing all aspects of the game that can be modified for the end user so they don't have to know anything and have a noticable advantage.
 
 SwoopsHud offers more than the normal hud by:
-1. Making the first complete set of default +12 button mouse binds with all class cfgs that have the best possible bind logic perclass.
-1. Medic has super powers with rebinding hudthresholdcaller into the null movement script, overwritting the sound, and changing the icon. Just press W on medic to see...
-1. Nearly all of main menu content is stylized and optimized for daily use.
-1. All windows with the possibility to key bind it to close are done with ESC or Q. All class sounds were remapped to hear them on 1-9 selection. E, A, and D also work and flow with the class selection bind T.
-1. All panels accesible and fully functional. (excluding Stats, fix coming soon)
-1. The pre-loader was absorbed into the hud with pre-packaged mods the player can easily access to allow for a one line toggle.
+1. Utilizing `autobind.cfg` and all the `class.cfg` files to create the best possible bind logic perclass. This is enhanced significantly by a 12 button mouse with M4.
+1. Medic has native walls built into `W` by adding hudthresholdcaller into the null movement script, overwritting the medic_alert.wav, changing the bugged icon, and resizing the hud.
+1. Nearly all of main menu content is stylized and functional for daily use while still having all features. (excluding Stats, fix coming soon)
+1. All windows able to be keybound to close the panel are done with `ESC` or `Q`. Class Selection sounds were added to all selection windows. `E`, `A`, and `D` also work and flow with the class selection bind `T`.
+1. The vscript pre-loader was absorbed into the hud with pre-packaged mods the player can easily access to allow for a one line toggle.
 1. The HUD has a built in music player and map selector. (58/107 maps unable to be upload due to github size limitations, $60/y to fix)
-1. The HUD has a built in AutoUpdater with working version control for effortless updating.
+1. The HUD has a built in AutoUpdater with working version control.
 1. Base File Intergration aka Hot Swaping is enabled allowing the user to toggle between default, swoopshud, and other huds later on.
 1. A cvar control page with commands worth toggling, speedometer, and transparent viewmodels are already baked in.
-1. listenserver.cfg has been optimzed for the best local host experience.
+1. listenserver.cfg will continued to be optimzed for the best local host experience.
 1. (Soon) The hud will have a complete Config allowing you to hotswap best or worst performance. Users no longer need other configs. (cfg/ATLAS.cfg I've almost compiled all 4,000+ commands and created the update)
 1. (Soon) The skybox give you extended controls for all bots, replays, and demos. Made for competition reviewers, youtubers, & advanced users.
 
