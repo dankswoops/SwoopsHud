@@ -83,8 +83,8 @@ Let's break this down into sections so you can adjust it for yourself.
 -dxlevel 80 : lowest dx, dx7 crashs on load   
 -dxlevel 81 : these levels aren't advised   
 -dxlevel 90 : these levels aren't advised   
--dxlevel 95 : USE THIS ONE 
--dxlevel 98 :  
+-dxlevel 95 : USE THIS ONE  
+-dxlevel 98 : not sure if fully stable  
 ##### SCREEN REFRESH RATE
 -freq 60   
 -freq 120   
