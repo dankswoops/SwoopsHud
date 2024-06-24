@@ -1,6 +1,6 @@
 #### If you enjoy this content, please star this repo.
 
-<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer</a> to install the package seemlessly. (Needs update to create removal.bat, if it doesn't exist in file path)
+<a href="https://github.com/dankswoops/SwoopsHud/raw/master/DoubleClickSwoopsHudUpdater.exe" download>Download and run the auto installer</a> to install the package seemlessly. (Needs update to create removal.bat, if it doesn't exist in file path/ Check desktop.ico ini is working as well)
 
 
 # Table Of Contents
